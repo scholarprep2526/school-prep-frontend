@@ -88,7 +88,7 @@ dist/
 
 # Gatsby (if you ever use it)
 .cache/
-public/
+# public/ - DO NOT ignore for Create React App!
 
 # Serverless directories
 .serverless/
