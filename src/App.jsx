@@ -14,6 +14,8 @@ import Analytics from './components/Analytics';
 import DepartmentManagement from './components/DepartmentManagement';
 import RolesPermissions from './components/RolesPermissions';
 import Attendance from './components/Attendance';
+import StudentManagement from './components/StudentManagement';
+import StaffManagement from './components/StaffManagement';
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
           <Route path="/department-management" element={<DepartmentManagement />} />
           <Route path="/roles-permissions" element={<RolesPermissions />} />
           <Route path="/attendance" element={<Attendance />} />
+          <Route path="/students" element={<StudentManagement />} />
+          <Route path="/staff" element={<StaffManagement />} />
         </Routes>
       </div>
     </Router>
